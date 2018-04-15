@@ -4,7 +4,7 @@
 
 TM1637Display display(CLK, DIO);
 
-int potPin = A0;    // select the input pin for the potentiometer
+int potPin = A7;    // select the input pin for the potentiometer
 int potVal = 0;
 int oldPotVal;
 int printVal;
